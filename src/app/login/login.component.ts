@@ -9,15 +9,13 @@ declare function init_plugins();
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-
-  constructor() { }
+  constructor(public router: Router) {}
 
   ngOnInit() {
     init_plugins();
   }
 
-  ingresar()  {
-    this.router.navigate(['/dashboard' ]);
+  ingresar() {
+    this.router.navigate(['/dashboard']);
   }
-
 }
