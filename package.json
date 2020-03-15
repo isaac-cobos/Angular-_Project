@@ -23,7 +23,9 @@
     "chart.js": "^2.8.0",
     "core-js": "^2.5.4",
     "ng2-charts": "^2.2.3",
+    "nodemon": "^1.19.4",
     "rxjs": "~6.3.3",
+    "sweetalert": "^2.1.2",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
