@@ -29,7 +29,6 @@ export class BreadcrumbsComponent implements OnInit {
         map((evento: ActivationEnd) => evento.snapshot.data)
       )
       .subscribe(data => {
-        console.log(data);
         this.titulo = data.titulo;
         this.title.setTitle(this.titulo);
 
