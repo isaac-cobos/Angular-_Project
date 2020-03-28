@@ -62,11 +62,11 @@ export class UsuariosComponent implements OnInit {
     }
     this.cargando = true;
 
-      this._usuarioService.buscarUsuarios(termino)
+/*       this._usuarioService.buscarUsuarios(termino)
               .subscribe((usuarios: Usuario[]) =>  {
                 this.usuarios = usuarios;
                 this.cargando = false;
-              });
+              }); */
 
   }
 
