@@ -26,7 +26,7 @@ export class ModalUploadComponent implements OnInit {
       this._modalUploadService.ocultarModal();
   }
 
-  seleccionImagen(archivo: File, usuario: Usuario) {
+  seleccionImagen(archivo: File) {
     if(!archivo) {
       this.imagenSubir = null;
       return;
